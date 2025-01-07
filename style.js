@@ -1,4 +1,5 @@
-// else if 15 example 
+// else if 15 example
+/* 
 // 1 . Grading System example start
 let result = parseInt(prompt("Enter Your result"));
 if(result>100 || result<0){
@@ -30,3 +31,20 @@ else{
     document.write("Please Integer Number input");
 }
 // 1 . Grading System example end
+*/
+
+// 2 .  Number Check example start
+let number =parseInt(prompt("number chack calulator"));
+
+ if(number>0){
+    document.write("positive number");
+}
+else if(number<0){
+    document.write("nagative number");
+}
+else{
+    document.write("please Enter any number");
+}
+
+
+// 2 .  Number Check example end
